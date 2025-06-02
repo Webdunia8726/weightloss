@@ -1,0 +1,152 @@
+  body {
+      font-family: 'Poppins', sans-serif;
+    }
+    .navbar-custom {
+      background-color: #e8f5e9; /* soft green */
+      box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+      border-bottom: 2px solid #c8e6c9; /* light green */
+    }
+    .navbar-brand {
+      font-weight: 600;
+      color: #2e7d32 !important; /* dark green */
+    }
+    .nav-link {
+      color: #2e7d32 !important;
+      margin-right: 15px;
+      transition: color 0.3s;
+    }
+    .nav-link:hover {
+      color: #00796b !important; /* teal */
+    }
+    .btn-cta {
+      background-color: #00796b;
+      color: white;
+      font-weight: 500;
+    }
+    .btn-cta:hover {
+      background-color: #004d40;
+      color: white;
+    }
+
+    .bg-teal {
+    background-color: #00796b !important;
+  }
+
+  /* hero section */
+  .lead {
+    font-size: 16px;
+  }
+
+  .Badges{
+    border: 2px solid #00796b;
+  }
+  
+  /* about us */
+
+   .about-section {
+      padding: 60px 20px;
+      background-color: #ffffff;
+    }
+
+    .about-title {
+      text-align: center;
+      font-size: 32px;
+      font-weight: 600;
+      color: #2e7d32;
+      margin-bottom: 10px;
+    }
+
+    .about-subtitle {
+      text-align: center;
+      font-size: 18px;
+      color: black;
+      margin-bottom: 40px;
+    }
+
+    .about-img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      border: 4px solid#198754;
+    }
+
+    .about-text {
+      font-size: 16px;
+      margin-bottom: 25px;
+      color: #444;
+    }
+
+    .section-title {
+      font-size: 18px;
+      font-weight: 600;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      color: #1abc9c;
+    }
+
+    .section-title i {
+      margin-right: 8px;
+      color: #16a085;
+    }
+
+    .about-list {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .about-list li {
+      margin-bottom: 8px;
+      position: relative;
+      padding-left: 22px;
+    }
+
+    .about-list li::before {
+      content: "✔";
+      color: #27ae60;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+
+    .contact-box {
+      background: #ecf0f1;
+      padding: 15px;
+      border-left: 4px solid #3498db;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+
+    .contact-box i {
+      color: #2980b9;
+      margin-right: 6px;
+    }
+
+    .contact-box a {
+      color: #2980b9;
+      text-decoration: none;
+    }
+
+    .highlight-box {
+      background-color: #dff9fb;
+      color: #130f40;
+      padding: 12px 15px;
+      border-left: 4px solid #00cec9;
+      font-weight: 500;
+      border-radius: 6px;
+    }
+
+    .highlight-box i {
+      color: #00cec9;
+      margin-right: 6px;
+    }
+
+    @media (max-width: 768px) {
+      .about-title {
+        font-size: 28px;
+      }
+
+      .about-subtitle {
+        font-size: 16px;
+      }
+    }
