@@ -152,11 +152,7 @@
     }
 
     /* serivces section */
-     .services-section {
-    background-color: #f8f9fa;
-    padding: 60px 20px;
-  }
-
+   
   .services-section h2 {
     text-align: center;
     font-weight: 600;
@@ -165,7 +161,7 @@
   }
 
   .service-card {
-    background: #fff;
+    background: #cef3d0;
     border-radius: 16px;
     border: 1px solid #eaeaea;
     padding: 0;
@@ -239,3 +235,76 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    height: 100%;
   .why-choose-us .card{
     border: 3px solid #00796b !important;
   }
+
+
+  /* faq */
+  
+
+
+  /* footer */
+  .footer p, .footer a {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: #ffc107;
+}
+
+
+/* WhatsApp Button */
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #198754;
+  color: white;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 26px;
+  z-index: 999;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}
+
+/* Call Button */
+.call-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #0d6efd;
+  color: white;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 26px;
+  z-index: 999;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+.call-float:hover {
+  transform: scale(1.1);
+}
+
+
+
+/*================ style websites=================== */
+.img-frame-gradient {
+  border: 5px solid;
+  border-image-slice: 1;
+  border-width: 8px;
+  border-image-source: linear-gradient(45deg, #6ee041, #347906, #43ad05);
+  border-radius: 12px;
+  padding: 5px; /* space between border and image */
+  display: inline-block;
+}
+
